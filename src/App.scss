@@ -1,0 +1,93 @@
+//usikker på om scssen min er semantisk riktig, da jeg er vandt tilå bruke css//
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  
+  background-color: #E1E5EE;
+  color: #2A324B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+}
+
+nav{
+  width: 100%;
+
+  ul{
+      display: flex;
+      gap: 1rem;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+      font-size: 1rem;
+      margin: 0;
+
+      li{
+          margin: 0;
+          background-color: #2A324B;
+          padding-left: 65px;
+          padding-right: 65px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+
+          a{
+              color:#fff;
+              font-weight: bold;
+              text-decoration: none;
+          }
+
+            &:hover {
+              background-color: #fff;
+              cursor: pointer; 
+              a {
+                  color: #2A324B;
+              }
+          }
+      }
+  }
+}
+
+.layout-container {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.content-container {
+  background: #FFFFFF;
+  padding: 30px;
+  text-align: left;
+  width: 100%;
+  min-height: 15rem;
+}
+
+ul {
+  margin-left: 2.5rem;
+  padding: 0;
+  margin-top: 1rem;
+
+  li {
+    margin-bottom: 0.5rem;
+
+    a {
+      color: #2A324B;
+      text-decoration: none;
+    }
+  }
+}
